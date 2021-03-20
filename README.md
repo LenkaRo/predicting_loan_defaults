@@ -11,10 +11,8 @@ To process data and to create the model I worked with the programming language *
 
 This is my final project as part of the [CodeClan's Data Analysis](https://codeclan.com/courses/data-analysis/) course training.
 
--
-
 ### Structure of the project - predictive analysis, classification:
-####A. Pre-modeling (data processing)
+#### A. Pre-modeling (data processing)
 1. import libraries
 
 2. data import and exploration (summary statistics, vizualizations)
@@ -41,7 +39,7 @@ drop categorical features showing high cardinality (= too many levels) that are 
 6. feature dummying
 	- dummy categorical variables (models can only handle numerical features)
 
-####B. Model building - machine learning binary classification model:
+#### B. Model building - machine learning binary classification model:
 1. Logistic regression, 
 2. Gaussian Naive Bayes, 
 3. Random Forest
@@ -68,11 +66,5 @@ An example of used Python libraries that were fundamental for the project - used
 `numpy`, `pandas`, `matplotlib.pyplot`, `seaborn`, `sklearn`
 
 
-### Code examples
-![](graphs/code_showcase_1.png)
-<br>
-<br>
-![](graphs/code_showcase_2.png)
-<br>
-<br>
-![](graphs/code_showcase_3.png)
+### Code example
+![](data/code_prntscr.png)
